@@ -10,7 +10,7 @@ class Point:
 class Rectangle:
     def __init__(self, bottom_left, width, height):
         self.bottom_left = bottom_left
-        self.top_right = Point(bottom_left.y + width, bottom_left.y + height)
+        self.top_right = Point(bottom_left.x + width, bottom_left.y + height)
         self.width = width
         self.height = height
 
